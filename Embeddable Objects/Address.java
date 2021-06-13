@@ -2,7 +2,7 @@ package com.telusko.DemoHib;
 
 import javax.persistence.Embeddable;
 
-@Embeddable
+@Embeddable 
 public class Address 
 {
 	private String home;
