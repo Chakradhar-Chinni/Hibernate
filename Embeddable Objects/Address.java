@@ -29,7 +29,7 @@ public class Address
 	@Override
 	public String toString() {
 		return "Address [home=" + home + ", office=" + office + ", residential=" + residential + "]";
-	}
+	} 
 	 
 	 
 }
