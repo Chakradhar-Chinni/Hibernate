@@ -1,0 +1,6 @@
+Two tables are present here
+1. Employee
+2. Address
+
+-> Employee table holds the lane in Address Table as OneToOne Relation
+-> Address table holds the id of the employee as the OneToOne Relation
