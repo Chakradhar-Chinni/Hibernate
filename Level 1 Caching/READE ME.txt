@@ -1,0 +1,5 @@
+-> By default, Hibernate framework provides first level cache 
+
+-> Explicit Configuration or any explicit dependencies are not required for first level cache
+
+-> First level cache is limited to a session, when current session terminates the next session cannot use the cache of prevoius session.
