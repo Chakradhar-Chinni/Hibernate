@@ -38,3 +38,9 @@ public class App
         
 	}
 }
+/*
+	-> Here, same query is used in different sessions, as Second Level cache is used here, though session1 is closed session2 is having the same query, now the application
+	   don't interact with the Database, application retrieves the Data from second level cache
+	
+	
+*/
