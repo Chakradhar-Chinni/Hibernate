@@ -1,0 +1,11 @@
+-> Hibernate Level 2 caching is not available by default 
+
+-> Cache dependency need to be configured
+
+-> Version of Hibernate and Version of Cache must be same
+
+-> All the entities will not be cached after configuring pom.xml with EH cache
+
+-> Entities which require caching must be mentioned with 
+    @Cachable
+    @Cache(Type-Of-Cache)
