@@ -9,3 +9,11 @@
 -> Entities which require caching must be mentioned with 
     @Cachable
     @Cache(Type-Of-Cache)
+    
+    
+ =======
+ POJO FILE
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+=======
+
