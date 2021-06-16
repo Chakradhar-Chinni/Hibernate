@@ -30,3 +30,9 @@ public class App
         
 	}
 }
+
+/*
+	Here in line 1 query is raised for the first time, So the application hits the database and fetches the required result
+	In the line 2 the same query is raised again, so the application won't interact with database and retrieves the result from cache memory which is stored when
+	line 1 query got executed
+*/
